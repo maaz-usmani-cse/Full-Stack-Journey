@@ -42,3 +42,8 @@ Sawal: Ek mix list hai . Sirf integers (pure numbers) nikaalo.
 
 '#important integers string niuaklne wala question ka logic yahi hai bus bhai'
 # print(type(20)==int)
+
+
+
+
+
