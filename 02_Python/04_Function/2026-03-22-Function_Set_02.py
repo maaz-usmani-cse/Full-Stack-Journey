@@ -76,3 +76,9 @@ Wo naya function kisi bhi number ko n se multiply kare.
 
 # tripler = make_multiplier(3)
 # print(tripler(5)) 
+
+
+
+
+
+
