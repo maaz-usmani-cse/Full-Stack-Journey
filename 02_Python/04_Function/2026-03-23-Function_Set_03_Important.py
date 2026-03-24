@@ -13,6 +13,7 @@
 #             result=result+i
 
 
+
 # user=input('enter your number')
 # result=counter(user)
 # print(result)
