@@ -11,7 +11,7 @@ for i in odd:
     if digit>9:
       digit=digit-9
     else:
-        total=total+multiply
+        total=total+digit
 if total%10==0:
     print("LUHN ALGORITHM HAI")
 else:

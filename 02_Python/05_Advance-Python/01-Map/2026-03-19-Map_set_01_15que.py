@@ -155,8 +155,8 @@ Output: ["Raj is 22 years old", " rahul is 21 years old"]
 
 '''
 
-# a=[("Raj", 22), ("rahul", 21)]
-# result=map(lambda x: x[0] + ' '+"is"+' ' +str(x[1])+" "+"years old",a)
-# print(list(result))
+a=[("Raj", 22), ("rahul", 21)]
+result=map(lambda x: x[0] + ' '+"is"+' ' +str(x[1])+" "+"years old",a)
+print(list(result))
 
 
