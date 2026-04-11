@@ -9,6 +9,7 @@
 #     if total==n[i]:
 #       l[i]=7
 #   return l
+ 
 
 
 # user=eval(input("enter your list"))
@@ -114,6 +115,3 @@
 # user=input("enter your number")
 # result=replace_digit_whose_cube_greater200(user)
 # print(*result,end=' ')
-
-
-
