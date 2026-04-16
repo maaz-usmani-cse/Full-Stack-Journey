@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+   
+}
+
+
+.heading{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  
+}
+.container{
+    background-color: royalblue;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+
+}
+
+
+
+.websitelink{
+   border: 1px solid white;
+   border-radius: 20px; 
+   padding: 5px 10px;
+   align-items: center;
+   font-weight: bold;
+  
+}
+.websitelink a{
+    text-decoration: none;
+}
+
+
+.shedule{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 5px 10px;
+   font-weight: bold;
+ 
+}
+.shedule h2{
+    display: flex;
+    justify-content: center;
+}
