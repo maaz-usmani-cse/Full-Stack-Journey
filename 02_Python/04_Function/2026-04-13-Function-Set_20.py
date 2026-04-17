@@ -23,14 +23,14 @@
 
 
 'Write a program to find the missing number in a series.'
-# def find_missing_value(n):
-#     for i in range(1,len(n)):
-#         if n[i]!=n[i-1]+1:
-#             return n[i-1]+1
+def find_missing_value(n):
+    for i in range(1,len(n)):
+        if n[i]!=n[i-1]+1:
+            return n[i-1]+1
 
-# user=eval(input("enter your list"))
-# result=find_missing_value(user)
-# print(result)
+user=eval(input("enter your list"))
+result=find_missing_value(user)
+print(result)
 
 
 
