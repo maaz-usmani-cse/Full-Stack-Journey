@@ -1,0 +1,16 @@
+body{
+background-color: white;
+color: black;
+transition: 0.5s;
+}
+
+
+.dark-theme{
+    background-color: black;
+    color: white;
+}
+
+button{
+    padding: 10px 20px ;
+    cursor: pointer;
+}
