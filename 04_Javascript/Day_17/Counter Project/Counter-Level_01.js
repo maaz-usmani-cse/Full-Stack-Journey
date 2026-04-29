@@ -36,6 +36,7 @@ function plus(){
 }
 
 
+
 function minus(){
     if (a>0){
         a=a-1
