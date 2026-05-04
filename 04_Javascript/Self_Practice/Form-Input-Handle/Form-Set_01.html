@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+<form onsubmit="return generateCard()">
+    <label>Full Name:</label>
+    <input type="text" id="u_name" placeholder="Enter Name"><br><br>
+
+    <label>Job Title:</label>
+    <input type="text" id="u_job" placeholder="Ex: Full Stack Developer"><br><br>
+
+    <label>Contact:</label>
+    <input type="text" id="u_contact" placeholder="Enter Mobile"><br><br>
+
+    <label>Email:</label>
+    <input type="text" id="u_email" placeholder="Enter Email"><br><br>
+
+    <input type="submit" value="Build My Card">
+</form>
+
+<hr>
+
+
+<div id="card-box" style="border: 2px solid #000; padding: 20px; width: 300px; display: none; background-color: #f9f9f9;">
+    <h2 id="display_name" style="margin: 0; color: blue;"></h2>
+    <p id="display_job" style="font-style: italic; margin: 5px 0;"></p>
+    <hr>
+    <p><b>Phone:</b> <span id="display_contact"></span></p>
+    <p><b>Email:</b> <span id="display_email"></span></p>
+</div>
+<script src="Form-Set_01.js"></script>
+</body>
+</html>
