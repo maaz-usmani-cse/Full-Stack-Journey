@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Counter Practice</title>
+    <style>
+        /* Thodi basic styling taaki screen ke beech mein dikhe */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: sans-serif;
+            background-color: #eef2f3;
+        }
+        
+        /* Display ka look */
+        #display {
+            font-size: 100px;
+            margin-bottom: 30px;
+            color: #2c3e50;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            margin: 5px;
+            cursor: pointer;
+            border: none;
+            border-radius: 8px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .btn-start { background-color: #27ae60; }
+        .btn-stop { background-color: #e74c3c; }
+        .btn-reset { background-color: #2980b9; }
+
+        button:active { transform: scale(0.95); }
+    </style>
+</head>
+<body>
+
+    <!-- 1. Ginti dikhane ke liye display -->
+    <div id="display">0</div>
+
+    <!-- 2. Buttons jo functions ko call karenge -->
+    <div>
+        <button class="btn-start" onclick="startGinti()">Start</button>
+        <button class="btn-stop" onclick="stopGinti()">Stop</button>
+        <button class="btn-reset" onclick="resetGinti()">Reset</button>
+    </div>
+
+    <script>
+        // --- TERA JAVASCRIPT CODE ---
+        
+        let count = 0;      // Ginti yahan se shuru hogi
+        let timer = null;   // Timer ko control karne ke liye "switch"
+
+        function startGinti() {
+            // Agar pehle se timer chal raha hai, toh use pehle band karo
+            clearInterval(timer); 
+
+            // Har 1 second (1000ms) baad function chalao
+            timer = setInterval(function() {
+                count = count + 1; // Har baar count ko 1 se badhao
+                document.getElementById('display').innerText = count; // Screen pe dikhao
+            }, 1000);
+        }
+                            
+        function stopGinti() {
+            clearInterval(timer); // Timer ko pause kar deta hai
+        }
+
+        function resetGinti() {
+            clearInterval(timer); // Pehle timer band karo
+            count = 0;            // Value zero karo
+            document.getElementById('display').innerText = count; // Screen zero karo
+        }
+    </script>
+
+</body>
+</html>
