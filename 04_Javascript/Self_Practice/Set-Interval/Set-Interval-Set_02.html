@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Auto-Start Timer</title>
+    <style>
+        body {
+            background: #121212; 
+            color: #00ff88; 
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        h2 { font-size: 20px; color: #ffffff; }
+        #count {
+            font-size: 150px;
+            text-shadow: 0 0 20px #00ff88;
+            margin: 20px 0;
+        }
+        .btns { display: flex; gap: 20px; }
+        button {
+            padding: 12px 30px;
+            border: 2px solid #00ff88;
+            background: transparent;
+            color: #00ff88;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover { background: #00ff88; color: #000; }
+    </style>
+</head>
+<body>
+
+    <h2>Screen On Hote Hi Shuru...</h2>
+    <div id="count">0</div>
+
+    <div class="btns">
+        <button onclick="stop()">STOP</button>
+        <button onclick="reset()">RESET</button>
+    </div>
+
+    <script src="Set-Interval_02.js"></script>
+</body>
+</html>
