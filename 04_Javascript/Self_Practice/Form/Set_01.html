@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+    <title>CRUD Project - Student List</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; }
+        input { margin: 5px; padding: 8px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+        th { background-color: #f4f4f4; }
+        .delete-btn { color: red; cursor: pointer; }
+        .edit-btn { color: blue; cursor: pointer; margin-right: 10px; }
+    </style>
+</head>
+<body>
+
+    <h2>Student Management (CRUD)</h2>
+    
+    <input type="hidden" id="editIndex"> <input type="text" id="stdName" placeholder="Enter Name">
+    <input type="number" id="stdAge" placeholder="Enter Age">
+    <button onclick="saveData()" id="mainBtn">Add Student</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+            </tbody>
+    </table>
+
+    <script src="Set_01.js"></script>
+</body>
+</html>
