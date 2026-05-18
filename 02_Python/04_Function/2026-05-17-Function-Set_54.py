@@ -1,5 +1,4 @@
 '.Find longest increasing streak with difference = 2 '
-
 # nums = [1, 3, 5, 10, 12, 14, 16, 20]
 # def find_longest_streak(l):  
 #     longest_streak = 1
@@ -20,6 +19,8 @@
 # user=eval(input("enyer your list"))
 # result=find_longest_streak(user)
 # print(result)
+
+
 
 
 

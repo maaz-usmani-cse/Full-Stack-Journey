@@ -1,31 +1,41 @@
 
-import DevAbout from './daily_backup/Day_01_Basics/About';          
-import { Frontend, Backend } from './daily_backup/Day_01_Basics/Skills'; 
-import myimage from './assets/tumhari.webp'
-function App() {
-  let mycss={
-    backgroundColor:"red",
-    color:'white'
-  }
-  return (
-    <div style={{ padding: '30px', fontFamily: 'sans-serif' }}>
-      <h1>My First React Project 🚀</h1>
+// import DevAbout from './daily_backup/Day_01_Basics/About';          
+// import { Frontend, Backend } from './daily_backup/Day_01_Basics/Skills'; 
+// import myimage from './assets/tumhari.webp'
+// function App() {
+//   let mycss={
+//     backgroundColor:"red",
+//     color:'white'
+//   }
+//   return (
+//     <div style={{ padding: '30px', fontFamily: 'sans-serif' }}>
+//       <h1>My First React Project 🚀</h1>
       
       
-      <DevAbout />
+//       <DevAbout />
 
-      <hr />
-      <h3 style={mycss}>Technical Expertise:</h3>
-      <ul><object data="" type=""></object>
+//       <hr />
+//       <h3 style={mycss}>Technical Expertise:</h3>
+//       <ul><object data="" type=""></object>
        
-        <Frontend />
-        <Backend />
-        {/* <Image/> */}
-         <img src={myimage} />
-      </ul>
+//         <Frontend />
+//         <Backend />
+//         {/* <Image/> */}
+//          <img src={myimage} />
+//       </ul>
       
-    </div>
+//     </div>
     
-  );
+//   );
+// }
+// export default App;
+
+
+
+
+function app(){
+    
+
+
 }
-export default App;
+
