@@ -1,4 +1,4 @@
-//let [variable,function]=usestate(initial state)
+//let [variable,function]=usestate(initial state) 
 import Count from "./Count";
 import { useState } from "react";
 function App(){
