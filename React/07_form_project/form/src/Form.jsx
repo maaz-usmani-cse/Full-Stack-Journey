@@ -12,7 +12,7 @@ function Form() {
     function Data_2(e) {
         setFrmdata_2(e.target.value);
     }
-
+    
     function Data_3(e) {
         setFrmdata_3(e.target.value);
     }
@@ -48,5 +48,6 @@ function Form() {
         </>
     );
 }
+
 
 export default Form;
