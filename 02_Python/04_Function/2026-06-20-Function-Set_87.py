@@ -120,11 +120,11 @@ pata chal sake data corrupt hai ya nahi.Input: ["Bhopal", "Bihar", "", "Delhi"] 
 (Kyunki beech mein ek khali string "" hai).
 '''
 
-def is_clean_data(l):
-    res=any(isinstance ,str) and i.strip() for i in l if i is not None)
-    return res
+# def is_clean_data(l):
+#     res=any(i is None or isinstance(i,str) and not i.strip() for i in l)
+#     return res
 
 
-user=eval(input("enter your list"))
-result=is_clean_data(user)
-print(result)
+# user=eval(input("enter your list"))
+# result=is_clean_data(user)
+# print(result)
