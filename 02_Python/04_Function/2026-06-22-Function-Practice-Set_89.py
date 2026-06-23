@@ -117,6 +117,12 @@
 
 
 
+
+
+
+
+
+
 'Sort only even elements '
 # def quick_sort_pivot(l):
 #     if len(l) <= 1:
