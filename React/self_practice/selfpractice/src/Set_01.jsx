@@ -1,21 +1,27 @@
 import { useState } from "react";
-function Set_01(){
-    let[count, setCount]=useState(0)
-    return (
 
-        <>
-        
-        <h1>Use state screen </h1>
-        <h2>{count}</h2>
-        <button onClick={()=> setCount(count+1)}>Increment</button>
-        <button onClick={()=> { if (count>0)  setCount(count-1)}}>Decrement</button>
-
-        </>
-    )
-
+function Count(){
+let[count,setCount] = useState(0)
+function increment(){
+    setCount(count+1)
 
 }
+function decrement(){
+    if (count>0){
+          setCount(count-1)
+    }
+  
+}
 
-export default Set_01
+    return (
+        <>
+        <h1>Counter Project</h1>
+        <h2>{count}</h2>
+        <button onClick={increment}>Increment+</button>
+        <button onClick={decrement}>-Decrement-</button>
+        </>
+    )
+}
 
 
+export default Count
