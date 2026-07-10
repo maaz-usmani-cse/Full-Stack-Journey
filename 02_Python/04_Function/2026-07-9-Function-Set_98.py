@@ -150,17 +150,17 @@ Jaise yahan 20 apne padosi 3 aur 4 dono se bada hai, toh output 20 aana chahiye.
 
 
 'Missing Number '
-def is_missing_number(l):
-    d={}
-    for i in l:
-        if i in d:
-            d[i]=d[i]+1
-        else:
-            d[i]=1
-    for j in range(len(l)+1):
-        if j not in d:
-            return f'missing number is {j}'
+# def is_missing_number(l):
+#     d={}
+#     for i in l:
+#         if i in d:
+#             d[i]=d[i]+1
+#         else:
+#             d[i]=1
+#     for j in range(len(l)+1):
+#         if j not in d:
+#             return f'missing number is {j}'
         
-user=eval(input("enter your list"))
-result=is_missing_number(user)
-print(result)
+# user=eval(input("enter your list"))
+# result=is_missing_number(user)
+# print(result)
