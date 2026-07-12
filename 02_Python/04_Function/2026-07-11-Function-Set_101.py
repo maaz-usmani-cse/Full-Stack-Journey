@@ -178,46 +178,51 @@ Expected Output: {'a': 20, 'b': 5, 'm': 30, 'z': 10}
 
 
 'Pair Sum Closest to Target '
-def quick_sort_pivot(l):
-    if len(l)<=1:
-        return l
-    pivot=l[0]
-    left=[]
-    middle=[]
-    right=[]
-    for i in l:
-        if i<pivot:
-            left.append(i)
-        elif i==pivot:
-            middle.append(i)
-        else:
-            right.append(i)
-    return quick_sort_pivot(left)+middle+ quick_sort_pivot(right)
+# def quick_sort_pivot(l):
+#     if len(l)<=1:
+#         return l
+#     pivot=l[0]
+#     left=[]
+#     middle=[]
+#     right=[]
+#     for i in l:
+#         if i<pivot:
+#             left.append(i)
+#         elif i==pivot:
+#             middle.append(i)
+#         else:
+#             right.append(i)
+#     return quick_sort_pivot(left)+middle+ quick_sort_pivot(right)
 
-def find_closest_pair(l,target):
-    sorting=quick_sort_pivot(l)
-    min_diff=float('inf')
-    closest_pair=(None,None)
-    left_pointer=0
-    right_pointer=len(l)-1
-    while left_pointer<right_pointer:
-        Current_sum=sorting[left_pointer]+sorting[right_pointer]
-        diff=abs(Current_sum-target)
-        if diff<min_diff:
-            min_diff=diff
-            closest_pair=(sorting[left_pointer],sorting[right_pointer])
-        if Current_sum<target:
-            left_pointer=left_pointer+1
-        else:
-            right_pointer=right_pointer-1
-    return closest_pair
+# def find_closest_pair(l,target):
+#     sorting=quick_sort_pivot(l)
+#     min_diff=float('inf')
+#     closest_pair=(None,None)
+#     left_pointer=0
+#     right_pointer=len(l)-1
+#     while left_pointer<right_pointer:
+#         Current_sum=sorting[left_pointer]+sorting[right_pointer]
+#         diff=abs(Current_sum-target)
+#         if diff<min_diff:
+#             min_diff=diff
+#             closest_pair=(sorting[left_pointer],sorting[right_pointer])
+#         if Current_sum<target:
+#             left_pointer=left_pointer+1
+#         else:
+#             right_pointer=right_pointer-1
+#     return closest_pair
 
 
-user=eval(input("enter your list"))
-target=int(input("enter your target number"))
-result=find_closest_pair(user,target)
-print(result)
+# user=eval(input("enter your list"))
+# target=int(input("enter your target number"))
+# result=find_closest_pair(user,target)
+# print(result)
     
+
+
+
+
+
 
         
 
