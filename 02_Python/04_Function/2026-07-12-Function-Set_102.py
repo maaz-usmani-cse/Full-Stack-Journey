@@ -349,6 +349,3 @@ Expected Output: {1: "a", 2: "b", 3: "c"}
 
 
 
-a=[1,1,50,3,4]
-a.pop(2)
-print(a)
