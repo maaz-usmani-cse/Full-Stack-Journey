@@ -71,27 +71,27 @@ Sample Output: 2 3 5 7
 # # '''
 
 
-# def encrypt(letters,steps):
-#     res=''
-#     for i in letters:
-#         if i.isupper():
-#             old_position=ord(i)-ord('A')
-#             new_position=(old_position+steps)%26
-#             res=res+chr(new_position+ord('A'))
-#         elif i.islower():
-#             old_position=ord(i)-ord('Z')
-#             new_position=(old_position+steps)%26
-#             res=res+chr(new_position+ord('a'))
+def encrypt(letters,steps):
+    res=''
+    for i in letters:
+        if i.isupper():
+            old_position=ord(i)-ord('A')
+            new_position=(old_position+steps)%26
+            res=res+chr(new_position+ord('A'))
+        elif i.islower():
+            old_position=ord(i)-ord('Z')
+            new_position=(old_position+steps)%26
+            res=res+chr(new_position+ord('a'))
     
-#         else:
-#             res=res+i
-#     return res
+        else:
+            res=res+i
+    return res
 
 
-# letters=input("enter your letters:")
-# steps=int(input("enter your steps"))
-# result=encrypt(letters,steps)
-# print(result)
+letters=input("enter your letters:")
+steps=int(input("enter your steps"))
+result=encrypt(letters,steps)
+print(result)
 
 
 

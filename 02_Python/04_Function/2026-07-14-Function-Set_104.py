@@ -154,14 +154,14 @@ Input: nums = [10, 25, 40, 55]
 Expected Output: [15, 15, 15] (Kyunki 25-10=15, 40-25=15...)
 '''
 
-def running_diffrence(l):
-    res=[]
-    for i ,value in enumerate(l):
-        if i>0:
-            diff=value-l[i-1]
-            res.append(diff)
-    return res
+# def running_diffrence(l):
+#     res=[]
+#     for i ,value in enumerate(l):
+#         if i>0:
+#             diff=value-l[i-1]
+#             res.append(diff)
+#     return res
 
-user=eval(input("enter your list"))
-result=running_diffrence(user)
-print(result)
+# user=eval(input("enter your list"))
+# result=running_diffrence(user)
+# print(result)
