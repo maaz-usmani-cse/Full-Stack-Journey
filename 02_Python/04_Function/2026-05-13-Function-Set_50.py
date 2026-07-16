@@ -108,7 +108,7 @@ Find difference between max and min
 #     # 10-20 baar mein hi ye ekdam sahi answer par pahunch jata hai
 #     for i in range(20): 
 #         # Bina kisi operator ke, bas basic math
-          # guess = (guess + (n / guess)) / 2
+#           guess = (guess + (n / guess)) / 2
         
 #     return guess
 

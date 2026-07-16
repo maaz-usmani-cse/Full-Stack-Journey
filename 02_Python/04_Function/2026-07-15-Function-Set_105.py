@@ -74,6 +74,8 @@
 
 
 'map emai '
+
+
 # def map_email(email):
 #     first=email[0]
 #     index=email.find('@')
@@ -99,6 +101,8 @@ Expected Output: [1, 2, 3, 4, 6, 12]
 
 '''
 
+
+
 # def find_divisors(n):
 #     res=[i for i in range(1, n+1) if n%i==0]
 #     return res
@@ -123,13 +127,15 @@ Input: emps = [{"name": "A", "city": "New York"}, {"name": "B", "city": "New Del
 Expected Output: ["New_York", "New_Delhi"]
 
 '''
-def add_underscore(l):
-    res=[]
-    for i in l:
-       i['city']=i['city'].replace(' ','_')
-       res.append(i)
-    return res
 
-user=eval(input('enter your list'))
-result=add_underscore(user)
-print(result)
+
+# def add_underscore(l):
+#     res=[]
+#     for i in l:
+#        i['city']=i['city'].replace(' ','_')
+#        res.append(i)
+#     return res
+
+# user=eval(input('enter your list'))
+# result=add_underscore(user)
+# print(result)
