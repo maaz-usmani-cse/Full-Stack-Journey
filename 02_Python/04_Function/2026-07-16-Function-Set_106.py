@@ -28,6 +28,8 @@ Expected Output: ['e', 'l', 'o'] (order can vary, but unique characters
 
 
 
+
+
 '''
 Find Indices of All Occurrences of an Element
 
@@ -51,6 +53,8 @@ Expected Output: [1, 3, 5]
 # target=int(input("enter your target"))
 # result=find_indices(user,target)
 # print(result)
+
+
 
 
 
@@ -85,6 +89,9 @@ Expected Output: [2, 5, 6, 1]
 
 
 
+
+
+
 '''
 Task: Student marks dict ko grades mein convert karna hai
  ($>80 \rightarrow 'A'$, $50 \text{ to } 80 \rightarrow 'B'$, $<50 \rightarrow 'F'$).Input: marks = 
@@ -106,6 +113,9 @@ Task: Student marks dict ko grades mein convert karna hai
 
 
 
+
+
+
 '''
 Vowel-Consonant Count Dictionary
 
@@ -117,25 +127,23 @@ Expected Output: {"python": {"v": 1, "c": 5}, "app": {"v": 1, "c": 2}}
 
 '''
 
-def vowel_consonant_count(l):
-    d={}
-    vowels={'a':True,'e':True,'i':True,'o':True,'u':True}
-    for i in l:
-        d[i]={'v':0,'c':0}
-        char_lower=i.lower()
-        for j in char_lower:
-            if j.isalpha():
-              if j in vowels:
-                  d[i]['v']=d[i]['v']+1
-              else:
-                  d[i]['c']=d[i]['c']+1
+# def vowel_consonant_count(l):
+#     d={}
+#     vowels={'a':True,'e':True,'i':True,'o':True,'u':True}
+#     for i in l:
+#         d[i]={'v':0,'c':0}
+#         char_lower=i.lower()
+#         for j in char_lower:
+#             if j.isalpha():
+#               if j in vowels:
+#                   d[i]['v']=d[i]['v']+1
+#               else:
+#                   d[i]['c']=d[i]['c']+1
 
-    return d
-
-
-user=eval(input("enter your list"))
-result=vowel_consonant_count(user)
-print(result)
+#     return d
 
 
-     
+# user=eval(input("enter your list"))
+# result=vowel_consonant_count(user)
+# print(result)
+
