@@ -119,8 +119,9 @@ Expected Output: {2: 4, 5: 25}
 def string_digit_key_value_square(d):
     res={}
     for i in d:
-        if i.isdigit() and type(i)=='str':
-            res[i]=d[i]**2
+     if i.isdigit() and type(i)==str:
+        key=int(i)
+        res[key]=key**2
     return res
 
 user=eval(input("enter your dict"))
