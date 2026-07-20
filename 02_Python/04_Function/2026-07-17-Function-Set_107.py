@@ -78,16 +78,16 @@ recursion k flatten diction m '_' add kro
 #             new_key = key
             
 
-#         if type(value) == dict:
+    #     if type(value) == dict:
           
-#             sub_dict = flatten_dict_recursive(value, new_key)
-#             for sub_key in sub_dict:
-#                 res[sub_key] = sub_dict[sub_key]
-#         else:
+    #         sub_dict = flatten_dict_recursive(value, new_key)
+    #         for sub_key in sub_dict:
+    #             res[sub_key] = sub_dict[sub_key]
+    #     else:
            
-#             res[new_key] = value
+    #         res[new_key] = value
             
-#     return res
+    # return res
 
 # d_complex = {"user": {"name": "Maaz", "details": {"id": 1, "city": "Delhi"}}}
 # print(flatten_dict_recursive(d_complex))

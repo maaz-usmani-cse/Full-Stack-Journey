@@ -215,12 +215,12 @@ Expected Output: ["pyt", "yth", "tho", "hon"]
 
 '''
 
-def substring(s):
-    res=[s[i:i+3] for i in range(len(s)-2)]
-    return res
+# def substring(s):
+#     res=[s[i:i+3] for i in range(len(s)-2)]
+#     return res
 
 
-user=input("enter your list")
-result=substring(user)
-print(result)    
+# user=input("enter your list")
+# result=substring(user)
+# print(result)    
 
