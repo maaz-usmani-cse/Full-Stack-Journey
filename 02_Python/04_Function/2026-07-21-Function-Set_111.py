@@ -132,11 +132,11 @@ Expected Output: [1, 2, 3, 4, 5, 6]
 
 '''
 
-def flatten_a_3d_matrix_into_1D_list(matrix3d):
-    flat_list = [val for level1 in matrix3d for level2 in level1 for val in level2]
-    return flat_list
+# def flatten_a_3d_matrix_into_1D_list(matrix3d):
+#     flat_list = [val for level1 in matrix3d for level2 in level1 for val in level2]
+#     return flat_list
 
 
-user=eval(input("enter your list"))
-result=flatten_a_3d_matrix_into_1D_list(user)
-print(result)
+# user=eval(input("enter your list"))
+# result=flatten_a_3d_matrix_into_1D_list(user)
+# print(result)
