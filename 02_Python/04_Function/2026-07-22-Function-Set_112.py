@@ -62,6 +62,9 @@ Expected Output: [3, 3, 5, 5, 8, 8]
 
 
 
+
+
+
 '''
 Filter Prime Index Elements
 
@@ -104,6 +107,9 @@ Expected Output: ['c', 'd', 'f'] (Indices 2, 3, 5 par baithe elements)
 
 
 
+
+
+
 '''
 
 
@@ -117,16 +123,49 @@ Expected Output: [(1, 3), (2, 4)] (Kyunki 1+3=4 aur 2+4=6)
 '''
 
 
-def filter_get_even_sum_pairs(l1,l2):
-    res=[]
-    for i in l1:
-        for j in l2:
-            if (i+j)%2==0:
-                res.append((i,j))
-    return res
+# def filter_get_even_sum_pairs(l1,l2):
+#     res=[]
+#     for i in l1:
+#         for j in l2:
+#             if (i+j)%2==0:
+#                 res.append((i,j))
+#     return res
 
 
-l1=eval(input("enter your list"))
-l2=eval(input("enter your list"))
-result=filter_get_even_sum_pairs(l1,l2)
-print(result)
+# l1=eval(input("enter your list"))
+# l2=eval(input("enter your list"))
+# result=filter_get_even_sum_pairs(l1,l2)
+# print(result)
+
+
+
+
+
+
+
+'''
+
+Swap First and Last Characters of Words
+
+Task: Words ki list ke har string ke pehle aur aakhri letter ko aapas mein swap (palat) dena hai.
+
+Input: words = ["code", "maaz", "python"]
+
+Expected Output: ["eodc", "zaam", "nythop"]
+
+'''
+
+# def swap_first_last_char(l):
+#     res=[]
+#     for i in l:
+#         first=i[0]
+#         middle=i[1:len(i)-1]
+#         last=i[-1]
+#         swap=last+middle+first
+#         res.append(swap)
+#     return res
+
+
+# user=eval(input("enter your list"))
+# result=swap_first_last_char(user)
+# print(result)
