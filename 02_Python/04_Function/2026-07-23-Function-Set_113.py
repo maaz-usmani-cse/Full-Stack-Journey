@@ -151,13 +151,18 @@ Input: d = {"apple": 1, "banana": 2, "orange": 3, "mango": 4}
 
 '''
 
-def remove_keys_start_with_vowel(d):
-    vowel={'a','e','i','o','u' ,'A','E','I','O','U'}
-    for i in list(d):
-        if i[0] in vowel:
-            del d[i]
-    return d
+# def remove_keys_start_with_vowel(d):
+#     vowel={'a','e','i','o','u' ,'A','E','I','O','U'}
+#     for i in list(d):
+#         if i[0] in vowel:
+#             del d[i]
+#     return d
 
-user=eval(input("enter your list"))
-result=remove_keys_start_with_vowel(user)
-print(result)
+# user=eval(input("enter your list"))
+# result=remove_keys_start_with_vowel(user)
+# print(result)
+
+
+
+
+
