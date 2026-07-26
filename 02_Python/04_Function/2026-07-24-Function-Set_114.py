@@ -178,11 +178,3 @@ Output: False
 
 
 
-
-l=[1,2,3,4,8,20]
-gen=(i>5 for i in l)
-print(next(gen))
-print(next(gen))
-print(next(gen))
-print(next(gen))
-print(next(gen))
