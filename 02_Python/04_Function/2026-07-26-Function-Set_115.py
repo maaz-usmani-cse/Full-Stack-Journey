@@ -285,19 +285,32 @@ Baaki bache huye numbers (jin ka digit sum Non-Prime ho) unhe PEECHE (back me) r
 #     return True
 
 
-# def is_sum_digit_prime_then_shift_front(l):
+
+# def digit_sum(n):
+#     total=0
+#     while n>0:
+#         total=total+(n%10)
+#         n=n//10
+
+
+# def is_sum_digit_prime(l):
+#     index=0
 #     for i in range(len(l)):
-#         total=0
-#         for j in range(len(i))
-        
+#        if is_prime(digit_sum(l[i])):
+#            temp=l[index]
+#            l[index]=l[i]
+#            l[i]=temp
+#     return l
+
+
+
+# user=eval(input("enter your list"))
+# result=is_sum_digit_prime(user)
+# print(result)
+           
 
 
 
         
 
         
-
-
-d={'name':'maaz','age':10}
-d['age']=20
-print(d)
