@@ -222,20 +222,20 @@ jinhe aapas me add (plus) karne par diya gaya target ban jaye.
 
 '''
 
-# def two_sum(l,target):
-#     d={}
-#     for i in l:
-#         required=target-i
-#         if required in d:
-#             return f'two sum is {d[required],i}'
+def two_sum(l,target):
+    d={}
+    for i in l:
+        required=target-i
+        if required in d:
+            return f'two sum is {d[required],i}'
 
-#         else:
-#             d[i]=i
+        else:
+            d[i]=i
 
-# user=eval(input("enter your list"))
-# target=int(input("enter your target"))
-# result=two_sum(user,target)
-# print(result)
+user=eval(input("enter your list"))
+target=int(input("enter your target"))
+result=two_sum(user,target)
+print(result)
 
 
     
