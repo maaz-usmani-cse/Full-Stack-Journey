@@ -1,4 +1,12 @@
 '''
+Closure kya hota hai?
+A simple definition:
+Jab ek nested function (andar wala function) apne outer function ke variables ko yaad rakhta hai,
+chahe outer function execute hokar memory se khatam (return) hi kyu na ho chuka ho,
+toh us combination ko Closure kehte hain.
+
+
+
 Rule 1: Variable ka Scope (Kahan kaun accessible hai).
 
 
@@ -64,4 +72,6 @@ Agar uski value badalni (modify) hai, to Python ko batana padega ki ye naya loca
 # print(result())
 # print(result())
 # print(result())
+
+
 
