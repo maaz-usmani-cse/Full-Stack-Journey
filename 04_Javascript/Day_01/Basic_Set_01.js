@@ -53,6 +53,6 @@ javA SCRIPT KO HTML K SATH DO TRH S LINK KR SKTE HAI
 
 
 
-// console.log("maaz usmani")
-// alert("request pending")
-// document.write("first class")
+console.log("maaz usmani")
+alert("request pending")
+document.write("first class")

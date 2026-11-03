@@ -90,7 +90,6 @@ except TypeError as e:
 
 
 
-
 # Sahi tareeqa: Argument pass karke call karo
 obj.student_details("1234567890")
 
